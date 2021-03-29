@@ -29,8 +29,8 @@ git clone https://github.com/garypang13/luci-app-dnsfilter.git package/lean/luci
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns  #smartdns DNS加速
 git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
-svn co https://github.com/liuran001/openwrt-packages/luci-app-dockerman package/lean/luci-app-dockerman #dockerman
-svn co https://github.com/liuran001/openwrt-packages/luci-app-iptvhelper package/lean/luci-app-iptvhelper #IPTV
+git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman #dockerman
+git clone https://github.com/georip/openwrt-iptvhelper.git package/lean/luci-app-iptvhelper #IPTV
 
 rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
 #全新的[argon-主题]此主题玩法很多,这里看说明【https://github.com/jerrykuku/luci-theme-argon/blob/18.06/README_ZH.md】

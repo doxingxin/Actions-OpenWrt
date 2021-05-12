@@ -32,7 +32,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/l
 git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman #dockerman
 git clone https://github.com/georip/openwrt-iptvhelper.git package/lean/luci-app-iptvhelper #IPTV
 git clone https://github.com/ntlf9t/luci-app-easymesh.git package/lean/luci-app-easymesh #有线+无线回程
-git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-oaf-app #应用过虑
+git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-app-oaf #应用过虑
 
 rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
 #全新的[argon-主题]此主题玩法很多,这里看说明【https://github.com/jerrykuku/luci-theme-argon/blob/18.06/README_ZH.md】

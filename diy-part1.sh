@@ -27,7 +27,7 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom  #透明主题
 git clone https://github.com/garypang13/luci-app-dnsfilter.git package/lean/luci-app-dnsfilter #广告过滤插件
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns  #smartdns DNS加速
-#git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
+git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
 git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman #dockerman
 git clone https://github.com/georip/openwrt-iptvhelper.git package/lean/luci-app-iptvhelper #IPTV

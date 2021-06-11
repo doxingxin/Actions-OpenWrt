@@ -34,6 +34,11 @@ sed -i 's/"KMS 服务器"/"KMS激活"/g' package/lean/luci-app-vlmcsd/po/zh-cn/v
 sed -i 's/"TTYD 终端"/"命令窗"/g' package/lean/luci-app-ttyd/po/zh-cn/terminal.po
 sed -i 's/"USB 打印服务器"/"打印服务"/g' package/lean/luci-app-usb-printer/po/zh-cn/usb-printer.po
 sed -i 's/"网络存储"/"存储"/g' package/lean/luci-app-usb-printer/po/zh-cn/usb-printer.po
-sed -i 's/"Web 管理"/"Web"/g' package/lean/luci-app-webadmin/po/zh-cn/webadmin.po
+sed -i 's/"Web 管理"/"Web 管理设置"/g' package/lean/luci-app-webadmin/po/zh-cn/webadmin.po
 sed -i 's/"管理权"/"改密码"/g' feeds/luci/modules/luci-base/po/zh-cn/base.po
 sed -i 's/"带宽监控"/"监视"/g' feeds/luci/applications/luci-app-nlbwmon/po/zh-cn/nlbwmon.po
+#sed -i 's/"服务"/"VPN"/g' package/lean/luci-app-openvpn/po/zh-cn/openvpn.po
+sed -i 's/"Frp 内网穿透"/"Frp 客户端"/g' package/lean/luci-app-frpc/po/zh-cn/frpc.po
+sed -i 's/"服务"/"VPN"/g' package/lean/luci-app-frps/po/zh-cn/frps.po
+sed -i 's/"Frps"/"Frp server"/g' package/lean/luci-app-frps/po/zh-cn/frps.po
+sed -i 's/"服务"/"VPN"/g' package/lean/luci-app-frpc/po/zh-cn/frpc.po

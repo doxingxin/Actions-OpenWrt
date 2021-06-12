@@ -29,7 +29,7 @@ git clone https://github.com/garypang13/luci-app-dnsfilter.git package/lean/luci
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns  #smartdns DNS加速
 #git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
-git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman #dockerman
+#git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman #dockerman
 git clone https://github.com/georip/openwrt-iptvhelper.git package/lean/luci-app-iptvhelper #IPTV
 git clone https://github.com/ntlf9t/luci-app-easymesh.git package/lean/luci-app-easymesh #有线+无线回程
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-app-oaf #应用过虑
